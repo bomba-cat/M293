@@ -26,20 +26,32 @@ h2 {
 div {
     position: absolute;
     left: 50%;
-    top: 100%;
+    top: 60%;
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-family: "Reddit Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
-    width: 99%;
-    height: 99%;
-    & #bledion {
-        position: absolute;
-        top: 100%;
-    }
-    & #bruno {
-        position: absolute;
-        top: 200%;
-    }
 }
+div a {
+    margin: 50px;
+    color: aliceblue;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+}
+.glow {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000;
+    }
+  }
