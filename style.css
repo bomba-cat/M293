@@ -1,0 +1,45 @@
+html body {
+    background-color: #252525;
+}
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 300%;
+}
+h2 {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 200%;
+}
+div {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 99%;
+    height: 99%;
+    & #bledion {
+        position: absolute;
+        top: 100%;
+    }
+    & #bruno {
+        position: absolute;
+        top: 200%;
+    }
+}
