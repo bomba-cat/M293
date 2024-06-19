@@ -1,0 +1,14 @@
+label {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    margin-right: 10px;
+}
+form input {
+    margin-bottom: 4px;
+}
+div {
+    border: 1px solid black;
+    width: 50%;
+    box-shadow: 0px 0px 10px black;
+}

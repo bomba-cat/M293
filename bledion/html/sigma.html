@@ -4,50 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sigma</title>
+    <link rel="stylesheet" href="../css/sigma.css">
 </head>
 <body style="background-color: aliceblue;">
     <form action="#" method="post">
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email"><br>
-        <label for="passowrd">Passwort:</label>
-        <input type="password" name="password" id="password"><br>
-        <label for="password2">Passwort wiederholen:</label>
-        <input type="password" name="password2" id="password2"><br>
-        
-        <br>
-
-        <label for="rückruf">Ja</label>
-        <input type="radio" name="rückruf" id="rückruf" value="Ja"><br>
-        <label for="rückruf">Nein</label>
-        <input type="radio" name="rückruf" id="rückruf" value="Nein"><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="passowrd">Passwort:</label>
+            <input type="password" name="password" id="password"><br>
+            <label for="password2">Passwort wiederholen:</label>
+            <input type="password" name="password2" id="password2"><br>
+        </div>
 
         <br>
 
-        <label for="web">Webseite:</label>
-        <input type="url" name="web" id="web"><br>
-        <label for="dring">Dringlichkeit:</label>
-        <select name="dring" id="dring">
-            <option value="tief">Tief</option>
-            <option value="medium">Medium</option>
-            <option value="hoch">Hoch</option>
-        </select><br>
-        <label for="typ">Typ:</label>
-        <select name="typ" id="typ">
-            <option value="update">Update</option>
-            <option value="sigma">Sigma</option>
-            <option value="talahoon">Talahoon</option>
-        </select><br>
+        <div>
+            <label for="rückruf">Ja</label>
+            <input type="radio" name="rückruf" id="rückruf" value="Ja"><br>
+            <label for="rückruf">Nein</label>
+            <input type="radio" name="rückruf" id="rückruf" value="Nein"><br>
+        </div>
 
         <br>
 
-        <label for="addresse">Addresse:</label>
-        <input type="text" name="addresse" id="addresse"><br>
-        <label for="postleitzahl">Postleitzahl:</label>
-        <input type="number" name="postleitzahl" id="postleitzahl"><br>
-        <label for="wohnort">Wohnort:</label>
-        <input type="text" name="wohnort" id="wohnort"><br>
-        <label for="land">Land:</label>
-        <input type="text" name="land" id="land"><br>
+        <div>
+            <label for="web">Webseite:</label>
+            <input type="url" name="web" id="web"><br>
+            <label for="dring">Dringlichkeit:</label>
+            <select name="dring" id="dring">
+                <option value="tief">Tief</option>
+                <option value="medium">Medium</option>
+                <option value="hoch">Hoch</option>
+            </select><br>
+            <label for="typ">Typ:</label>
+            <select name="typ" id="typ">
+                <option value="update">Update</option>
+                <option value="sigma">Sigma</option>
+                <option value="talahoon">Talahoon</option>
+            </select><br>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="addresse">Addresse:</label>
+            <input type="text" name="addresse" id="addresse"><br>
+            <label for="postleitzahl">Postleitzahl:</label>
+            <input type="number" name="postleitzahl" id="postleitzahl"><br>
+            <label for="wohnort">Wohnort:</label>
+            <input type="text" name="wohnort" id="wohnort"><br>
+            <label for="land">Land:</label>
+            <input type="text" name="land" id="land"><br>
+        </div>
     </form>
 </body>
 </html>
