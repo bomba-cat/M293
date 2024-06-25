@@ -1,0 +1,40 @@
+html, body {
+    background-color: red;
+    overflow: hidden;
+}
+
+#hearts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text #text {
+    position: absolute;
+    background-color: red;
+    padding: 15px;
+    font-family: "Playwrite AU SA", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 250%;
+    top: 25%;
+    left: 50%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 15px purple;
+    transform: translate(-50%,-50%);
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      top: 25%;
+      text-shadow: 0 0 10px purple, 0 0 20px purple, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white;
+    }
+    to {
+      top: 75%;
+      text-shadow: 0 0 20px purple, 0 0 30px white, 0 0 40px white, 0 0 50px white, 0 0 60px white, 0 0 70px white, 0 0 80px white;
+    }
+}
